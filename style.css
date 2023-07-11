@@ -1,0 +1,104 @@
+/* =====common css======= */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    color: #272727;
+}
+
+.btn{
+    color: #FFF;
+    background-color: #E55473;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+}
+
+
+/* ====header content========= */
+
+.header-container{
+    background-color: rgba(229, 82, 114, 0.1);
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-content{
+    margin-left: 200px;
+}
+
+.header-title{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.header-para{
+    width: 600px;
+}
+
+/* =====main section css start ============= */
+
+.main-section{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.main-section .featured-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-section .featured-section h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.main-section .featured-section p{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main-section .featured-section .pink-flower{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-section .featured-section .pink-flower .rec{
+    margin: 15px 90px;
+}
+
+.main-section .featured-section .pink-flower .rec img{}
+
+.main-section .featured-section .pink-flower .rec-one{
+    margin-left: 0;
+    width: 450px;
+    height: 525px;
+    background: rgba(167, 33, 98, 0.1);
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
