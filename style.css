@@ -41,7 +41,7 @@ p{
 }
 
 .header-title{
-    font-size: 36px;
+    font-size: 42px;
     margin-bottom: 20px;
 }
 
@@ -214,6 +214,58 @@ p{
         border: none;
     }
 
+    /* -----social section css------------- */
+
+    .social-section{
+        margin: 20px 100px 30px 200px;
+        background-color: rgba(236, 190, 200, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .social-section h2{
+        font-size: 32px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+
+    }
+
+    .social-section ul{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 35px;
+    
+    }
+  
+
+
+    .social-section .fa-facebook{
+        color: #17a8fd;
+    }
+
+    .social-section .fa-twitter{
+        color: #00ACEE;
+    }
+
+    .social-section .fa-instagram{
+        color: #fa7e1e;
+    }
+
+    .social-section .fa-google-plus{
+        color: #db4a39;
+    }
+
+    .social-section .fa-youtube{
+        color:  #CD201F;
+    }
+
+
+
     /* ------footer css start--------- */
 
     footer{
@@ -249,8 +301,9 @@ p{
     .footer-content .copy-right{
         font-size: 13px;
         margin-top: 50px;
-
     }
+
+   
    
     
 
