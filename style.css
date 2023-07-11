@@ -149,6 +149,12 @@ p{
     text-align: center;
  }
 
+ .hot-deal-container span{
+    color: #db4a39;
+ }
+
+
+
     .hot-deal-container p{
         text-align: center;
     }
@@ -239,29 +245,33 @@ p{
         justify-content: space-between;
         align-items: center;
         gap: 35px;
-    
     }
   
 
 
     .social-section .fa-facebook{
         color: #17a8fd;
+        cursor: pointer;
     }
 
     .social-section .fa-twitter{
         color: #00ACEE;
+        cursor: pointer;
     }
 
     .social-section .fa-instagram{
         color: #fa7e1e;
+        cursor: pointer;
     }
 
     .social-section .fa-google-plus{
         color: #db4a39;
+        cursor: pointer;
     }
 
     .social-section .fa-youtube{
         color:  #CD201F;
+        cursor: pointer;
     }
 
 
