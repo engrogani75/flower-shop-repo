@@ -22,6 +22,7 @@ p{
     margin-top: 20px;
     padding: 15px 30px;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -29,7 +30,7 @@ p{
 
 .header-container{
     background-color: rgba(229, 82, 114, 0.1);
-    max-width: 1600px;
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -51,15 +52,17 @@ p{
 /* =====main section css start ============= */
 
 .main-section{
-    margin-left: 200px;
     margin-top: 30px;
 }
+
+/* -------featured section css--------- */
 
 .main-section .featured-section{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 200px;
 }
 
 .main-section .featured-section h2{
@@ -76,23 +79,185 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
-.main-section .featured-section .pink-flower .rec{
-    margin: 15px 90px;
+.main-section .featured-section .pink-flower .rec {
+    margin: 15px 20px;
+    width: 33%;
+    height: 500px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+    position: relative;
+    
 }
 
-.main-section .featured-section .pink-flower .rec img{}
+/* .main-section .featured-section .pink-flower .rec img{
+    width: 300px;
+    height: 350px;
+} */
+
+
 
 .main-section .featured-section .pink-flower .rec-one{
-    margin-left: 0;
-    width: 450px;
-    height: 525px;
     background: rgba(167, 33, 98, 0.1);
-    border-top-left-radius: 100px;
-    border-top-right-radius: 100px;
-    display: flex;
+    
 }
+
+.main-section .featured-section .pink-flower .rec-two{
+    background: rgba(5, 151, 160, 0.1);
+}
+
+.main-section .featured-section .pink-flower .rec-three{
+    background: rgba(71, 125, 17, 0.1);
+
+}
+
+ .flower-tree-link{
+    position: absolute;
+    width: 200px;
+    bottom: -50px;
+ }
+
+ .flower-tree-link a{
+    color: #272727;
+ }
+
+ /* ------hot deal container css--------- */
+
+ .hot-deal-container{
+    width: 100%;
+    margin-top: 100px;
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+ }
+
+ .hot-deal-content{
+    width: 50%;
+    text-align: center;
+ }
+
+ .hot-deal-container h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-align: center;
+ }
+
+    .hot-deal-container p{
+        text-align: center;
+    }
+
+    /* -------instagram section css--------- */
+
+    .instagram-container{
+        margin: 100px 100px 50px 200px;
+        text-align: center;
+    }
+
+    .instagram-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .instagram-content h2{
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .instaram-picture{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    .instaram-picture img{
+        width: 300px;
+        height: 350px;
+    }
+
+    .input-container{
+        margin: 20px 100px 20px 200px;
+        text-align: center;
+    }
+    
+    .input-item{
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url('images/banner.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .input-item h2{
+        font-size: 32px;
+    }
+
+    .input-item input{
+        width: 450px;
+        padding: 15px;
+        border: none;
+    }
+
+    /* ------footer css start--------- */
+
+    footer{
+        height: 400px;
+        background-color: #111010;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #FFF;
+    }
+
+    .footer-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;  
+    }
+
+    .footer-content h2{
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .footer-content span{
+        color: #E55473;
+    }
+
+    .footer-content p{
+        color: #FFF;
+    }
+
+    .footer-content .copy-right{
+        font-size: 13px;
+        margin-top: 50px;
+
+    }
+   
+    
+
+
+
+
+
 
 
 
